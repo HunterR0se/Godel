@@ -39,16 +39,16 @@ Gödel searches for:
 
 ```bash
 # Basic help
-./bin/godel
+godel
 
 # Help with all options
-./bin/godel -help
+godel -help
 
 # Scan a directory
-./bin/godel -dir /path/to/scan
+godel -dir /path/to/scan
 
 # Scan a single directory without recursion
-./bin/godel -dir /path/to/scan -r=false
+godel -dir /path/to/scan -r=false
 ```
 
 ### **Reading the Results**
@@ -81,12 +81,12 @@ git clone https://github.com/HunterR0se/godel.git
 cd godel
 
 # Build the tool
-go build -o bin/godel
+go build -o godel
 
 # Run the tool
-./bin/godel
+./godel
 
-# Alternatively, use the script
+# Alternatively, use the build script to compile and install
 ./build.sh
 ```
 
@@ -106,7 +106,6 @@ Contributions to Gödel are welcome! Please feel free to submit a Pull Request.
 
 ```md
 Gödel/
-├── bin/ # Compiled binaries
 ├── internal/ # Application-specific internal packages
 │ ├── cli/ # Command-line interface functionality
 │ ├── scanner/ # Core file scanning and processing logic
@@ -120,8 +119,7 @@ Gödel/
 ├── test_samples/ # Sample files for testing
 ├── build.sh # Build script
 ├── main.go # Application entry point
-├── README.md # Project documentation
-└── TODO.md # Project roadmap
+└── README.md # Project documentation
 ```
 
 ---
