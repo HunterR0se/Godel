@@ -1,6 +1,6 @@
 # Gödel - The Crypto Seed Phrase Recovery Tool
 
-![MIT License](https://img.shields.io/github/license/HunterR0se/Godel)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Recover Your Keys. Recover Your Coins.
 
