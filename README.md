@@ -75,7 +75,7 @@ Associated Keys: - Seed Phrase: abandon ability able about above absent absorb a
 
 ```bash
 # Clone the repository
-git clone https://github.com/HunterR0se/godel.git
+git clone https://github.com/CyphrRiot/godel.git
 
 # Navigate to the directory
 cd godel
